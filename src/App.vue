@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">图片上传</router-link> |
+      <router-link to="/show">图片查看</router-link>
     </nav>
     <router-view/>
   </div>
@@ -19,6 +19,8 @@
 
 nav {
   padding: 30px;
+  font-size:18px;
+  font-family:'楷体';
 }
 
 nav a {
@@ -27,6 +29,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #66ccff;
 }
 </style>
