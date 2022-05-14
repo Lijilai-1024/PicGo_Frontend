@@ -1,4 +1,10 @@
 # picgo_frontend
+## 采用Vue框架编写
+
+## 已部署到云服务器：
+```
+http://124.221.187.20/
+```
 
 ## Project setup
 ```
